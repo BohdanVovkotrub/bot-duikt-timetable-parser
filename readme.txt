@@ -20,6 +20,10 @@ If there is no .env file, then create it following the example .env.example
 
 In order for the Bot to work as a Windows service, you need:
 
+0) Download node modules from npm
+	
+	npm install
+	
 1) Copy this BOT-ROZKLAD to drive C and go there.
 2) Input in .env the correct path to "spamSubscribers.json" ("C:/bot-rozklad/data/spamSubscribers.json")
 3) Install GLOBALLY qckwinsvc2
