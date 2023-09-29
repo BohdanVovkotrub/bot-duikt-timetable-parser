@@ -11,7 +11,7 @@ For find facultyId, course and groupId:
 5) You will see FormData in Payload tab
 6) In this FormData you can see yours facultyId, course and groupId
 Done!
-For ISDM-43 (2023) facultyId=1; course=5; groupId=928;
+For ISDM-53 (2023) facultyId=1; course=5; groupId=928;
 
 
 Make settings in the .env file
