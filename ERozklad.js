@@ -13,9 +13,9 @@ export default class ERozklad {
     this.erozkladUrl = process.env.EROZKLAD_URL || 'http://e-rozklad.dut.edu.ua/time-table/group?type=0';
     this.updateInterval = 1 * 60 * 1000; // milliseconds
     this.update = update;
-    this.facultyId = facultyId; // 1; // Навчально-науковий інститут Інформаційних технологій
-    this.course = course; // 5; // 5 курс
-    this.groupId = groupId; // 928; // ІСДМ-53
+    this.facultyId = process.env.EROZKLAD_FACULTY_ID; // 1; // Навчально-науковий інститут Інформаційних технологій
+    this.course = process.env.EROZKLAD_COURSE; // 5; // 5 курс
+    this.groupId = process.env.EROZKLAD_GROUP_ID; // 928; // ІСДМ-53
     this.csrfFrontendCookieName = '_csrf-frontend';
     this.week = this.getCurrentWeek();
     
