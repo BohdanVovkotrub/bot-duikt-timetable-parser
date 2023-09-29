@@ -1,5 +1,7 @@
 This is Telegram Bot for parsing the lessons schedule from http://e-rozklad.dut.edu.ua/time-table/group?type=0 for your group.
 
+Telegram Bot for parse timetable from http://e-rozklad.dut.edu.ua/time-table/group?type=0 for your academy group. It's works in 2023 until the website is not changed
+
 Before launching, you need to register your bot through BotFather and get its API token
 Next, you need to independently find your facultyId, course and groupId on the website http://e-rozklad.dut.edu.ua/time-table/group?type=0
 
