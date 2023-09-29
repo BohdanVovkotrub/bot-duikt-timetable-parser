@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "bot-rozklad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cookie": "^0.5.0",
+    "cron-time-generator": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "jsdom": "^22.1.0",
+    "node-cron": "^3.0.2",
+    "qckwinsvc2": "^1.0.2",
+    "querystring": "^0.2.1",
+    "telegraf": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*",
+      "bin/*"
+    ]
+  }
+}
