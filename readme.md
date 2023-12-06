@@ -17,7 +17,7 @@ For find facultyId, course and groupId:
 Done!
 For ISDM-53 (2023) facultyId=1; course=5; groupId=928;
 
-## Install
+## Install on Windows
 
 * Download it and unzip then go to the folder.
 
@@ -36,5 +36,21 @@ If there is no .env file, then create it following the example .env.example
 	```
 	npm i qckwinsvc2 -g
 	```
+	* For Linux you can run it with pm2 (find "pm2" on npmjs.com)
 4) Go to the folder "Bin" and run the required batch file.<br>
 For the first running you need to run create-service.cmd - that's will create a windows service which you'll see in the Task Manager.
+
+
+## Usage
+
+After running you can open Telegram.<br>
+Go to your bot created with BotFather (which mapped via TELEGRAM_BOT_TOKEN ).<br>
+Send ```/start``` <br>
+The bot will sent you next instructions: <br>
+* You can subscribe/unsubscribe to morning or/and night notifications.
+* Night notifications will send you eveny evening about tomorrow's lessons of your group.
+* Morning notifications will send you every morning about today's lessons.
+* Also this bot will send before 30 min to the lesson notifications.
+* Also you can manually see timetable by using received butttons.
+
+Subscriptions writes to data/spamSubscribers.json
