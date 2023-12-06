@@ -2,14 +2,14 @@
   "type": "module",
   "name": "bot-rozklad",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parser and Tg-Bot for timetable e-rozklad DUT DUIKT 2023",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["duikt", "e-rozklad", "timetable", "parser", "tg-bot"],
+  "author": "Bohdan Vovkotrub <bvovkotrub@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.5.0",
